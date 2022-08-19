@@ -1,0 +1,79 @@
+.image-container{
+    background: #ffff;
+    /* min-height: 500px; */
+}
+
+.text1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.dropzone{
+    border: 2px dotted #F15C45;
+    width: 50%;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.upload{
+    margin-top: 20px;
+}
+
+.browser-btn{
+    width: 50%;
+    line-height: 2rem !important
+}
+
+.image-loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.reactEasyCrop_Container{
+    height: 570px;
+}
+
+.list {
+    list-style-type: none;
+    font-weight: 700;
+}
+#profile-crop .cropper-crop-box .cropper-view-box {
+    border-radius: 50% !important;
+}
+
+#profile-crop .cropper-view-box {
+    box-shadow: 0 0 0 1px #39f !important;
+    outline: 0 !important;
+}
+
+#cover-crop .cropper-crop-box .cropper-view-box {
+    border-radius: 0 !important;
+}
+
+#cover-crop .cropper-view-box {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.action{
+    margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .sideOpen{
+       margin-left: 0;
+    }
+
+    .dropzone{
+        height: 320px;
+    }
+
+    .browser-btn{
+        display: none;
+    }
+
+}

@@ -1,0 +1,19 @@
+.brand-white{
+    background-color: #fff;
+}
+
+.text-44{
+    color: #323546;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.modal-header{
+    border-bottom: #fff;
+}
+
+/* @media (max-width: 768px) {
+    .sideOpen{
+       margin-left: 0;
+    }
+} */

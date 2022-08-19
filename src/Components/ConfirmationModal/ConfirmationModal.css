@@ -1,0 +1,10 @@
+.smaller {
+    font-size: 14px;
+    color: var(--textColor);
+    text-align: center;
+}
+.question-confirm-modal {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}

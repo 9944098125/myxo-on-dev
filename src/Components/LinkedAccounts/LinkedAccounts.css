@@ -1,0 +1,30 @@
+.nav-tabs{
+    border-bottom: none;
+  }
+  
+  .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    color: #323546;
+    border-bottom: 2.5px solid #F15C45;
+    background-color: #f3f3f3;
+    border-color: #f3f3f3 #f3f3f3 #F15C45 #f3f3f3;
+  }
+  
+  .nav-tabs .nav-link:hover{
+    border-color: #f3f3f3 #f3f3f3 #F15C45 #f3f3f3;
+  }
+  
+  .nav-tab .nav-link:hover{
+    border: none;
+  }
+  
+  .nav-tabs .nav-link{
+    margin-left: 15px;
+    color: #323546;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .tab-content{
+    background-color: #ffffff;
+    min-height:500px;
+  }

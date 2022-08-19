@@ -1,0 +1,35 @@
+/* main-container */
+.page-wrapper{
+    background-color: #f3f3f3;
+    min-height: 100vh;
+}
+
+/* .sideClose{
+    margin-left: 80px;
+}
+
+.sideOpen{
+    margin-left: 250px;
+} */
+
+
+@media (max-width: 768px) {
+    .d-flex{
+        display: block !important;
+    }
+}
+
+.class-btn {
+    border: 3px solid #f15c45;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: var(--light-color);
+    font-weight: var(--font-weight-normal);
+}
+@media screen and (max-width:875px) {
+    .image-row {
+        display: flex;
+        align-items: center;
+        overflow: wrap;
+    }
+}

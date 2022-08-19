@@ -1,0 +1,99 @@
+#show{
+    display: none;
+}
+
+/* .box{
+    margin-top: 100px;
+    width: 350px;
+}
+   */
+.main-title{
+    font-weight: var(--font-weight-normal);
+    color: var(--textColor);
+}
+
+.text-1{
+    color: var(--light-grey-color);
+    font-weight: var(--font-weight-small);
+}
+
+.share-section{
+    margin-top: 90px;
+    margin-bottom: 17px;
+    color: var(--textColor);
+    font-size: 16px;
+}
+
+.links{
+    margin-right: 20px;
+}
+
+.btn1{
+    width: 200px;
+}
+
+.btn2{
+    width: 120px;
+}
+
+.price-field{
+    width: 95px !important;
+}
+
+.dropdownMenuButton1{
+    line-height: 2rem !important;
+    background-color: var(--background) !important;
+    color: var(--textColor) !important;
+}
+
+.icon{
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url('../../Assets/Images/angle-down-small1.svg');
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+
+.dropdownMenuButton1:active, .dropdownMenuButton1:focus,.drp:focus,.drp:active{
+    border: 1px solid var(--primary-color) !important;
+}
+
+.dropdown-text,.drpIn::placeholder{
+    color: #c7c7c7 !important;
+}
+
+/* .dropdown-menu{
+    width: 100%;
+} */
+
+.drp{
+    line-height: 2rem !important;
+    background-color: var(--background) !important;
+    border: 1px solid #ced4da !important;
+    color: var(--textColor) !important;
+}
+
+.drpIn{
+    background-color: var(--background) !important;
+}
+
+
+@media (max-width: 768px) {
+    .bg1{
+        display: none;
+    }
+
+    .board{
+        margin: 0px !important;
+    }
+
+    #show{
+        display: flex;
+        justify-content: center;
+    }
+}
+

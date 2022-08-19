@@ -1,0 +1,367 @@
+.profile-image{
+    margin-top: -40px;
+    margin-left: 40px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.camera{
+    margin-top: -35px;
+    margin-left: -10px;
+}
+
+.profile-name, .followers{
+    /* font-size: 20px; */
+    font-size: 14px;
+    font-weight: 700;
+    color: #323546;
+}
+
+.profile-mail,.profile-description{
+    color: #323546;
+    font-size: 14px;
+}
+
+.profile{
+    display: inline-block;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+
+.add-cover-image{
+    height: 204px;
+    background-color: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-1{
+    width: 155%;
+    height: 200%;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.video{
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+.text-11{
+    font-size: 14px;
+    font-weight: 800;
+    color: #323546;
+    width: 150%;
+}
+
+.text-12{
+    color: #F15C45;
+    font-size: 12px;
+}
+
+.dropdown::after{
+    border-top: #F15C45;
+}
+
+.bg-1{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.box{
+    border-top-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 5px;
+    height: 270px;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+  
+.box::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.progress{
+    height: 32px;
+    background-color: #fff;
+}
+
+.progress-bar{
+    background-color: #F15C45;
+    text-align: left;
+    padding: 5px;
+}
+
+.react-calendar{
+    width: 100% !important;
+    border: none !important;
+}
+
+.react-calendar__navigation__label__labelText, .react-calendar__navigation__label__labelText--from{
+    font-weight: 700;
+    color: #323546;
+}
+
+.react-calendar__month-view__days__day--weekend, .react-calendar__tile .react-calendar__month-view__days__day{
+    color: #323546 !important;
+}
+
+.react-calendar__tile {
+    padding: 2px 3% !important;
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center;
+    background-clip: content-box !important;   
+}
+
+.react-calendar__tile--now{
+    background-color: var(--light-grey-color) !important;
+    color: #fff !important;
+    padding: 2px 3% !important;
+    border-radius: 50%;
+    text-align: center;
+    background-clip: content-box !important;
+}
+
+.react-calendar__tile--active{
+    background-color: var(--primary-color) !important;
+    color: #fff !important;
+    padding: 2px 3% !important;
+    border-radius: 50%;
+    text-align: center;
+    background-clip: content-box !important;
+}
+
+.react-calendar__year-view .react-calendar__tile--hasActive, 
+.react-calendar__decade-view .react-calendar__tile--hasActive, 
+.react-calendar__century-view .react-calendar__tile--hasActive {
+    background-color: var(--primary-color)  !important;
+    color: #fff !important;
+}
+
+.react-calendar__tile.react-calendar__tile--now.react-calendar__year-view__months__month,
+.react-calendar__tile.react-calendar__tile--now.react-calendar__decade-view__years__year,
+.react-calendar__tile.react-calendar__tile--now.react-calendar__century-view__decades__decade {
+    background-color: var(--light-grey-color)  !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+}
+
+.react-calendar button{
+    font-size: 0.8750em;
+}
+
+.react-calendar__navigation{
+    margin-bottom: 0;
+}
+
+.calender-container {
+    height: auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.add-cover-button{
+    text-align: end;
+    margin-top: -190px;
+}
+
+.btn-2{
+    border-color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.cover-image{
+    height:204px;
+}
+
+.mar{
+    margin-top: -30px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.question {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 100px !important;
+    margin-bottom: -20px;
+}
+
+.btn-w {
+    width: 30%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.time{
+    font-size: 14px;
+} 
+
+.bg-2{
+    background-color: #f3f3f3;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.class-name{
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+.number{
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .sideOpen{
+       margin-left: 0;
+    }
+
+    .followers{
+        width: 100%;
+    }
+
+    .mar{
+        margin-top: 10px;
+    }
+
+    .text-end{
+        text-align: justify !important;
+    }
+
+    .btn-1{
+        width: 100%;
+    }
+
+    .ms-4{
+        margin-left: 0 !important;
+    }
+}
+
+.react-calendar__tile--active
+.react-calendar__tile--now {
+    color: #ffffff !important;
+}
+
+.react-calendar__tile {
+    max-width: 100%;
+    padding: 10px 6.6667px;
+    background: none;
+    text-align: center;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .highlight {
+    
+} */
+
+.highlight:before {
+    color:var(--primary-color) !important; 
+    content: "•";
+    position: absolute;
+    margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+    .cover-image{
+        height:150px;
+    }
+
+    .add-cover-button{
+        margin-top: -140px;
+    }
+
+    .streaming{
+        margin-top: -30px;
+    }
+
+    .camera {
+        margin-top: -25px;
+        margin-left: -18px;
+    }
+
+    .progress {
+        height: 25px;
+    }
+
+    .add-cover-image{
+        height: 140px;
+    }
+
+    .profile{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media(min-width:1440px) {
+    .btn-1{
+        width: 150%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .cover-image{
+        height:204px;
+    }
+
+    .add-cover-button{
+        margin-top: -190px;
+    }
+
+    .streaming{
+        margin-top: -30px;
+    }
+
+    .camera {
+        margin-top: -25px;
+        margin-left: -18px;
+    }
+
+    .progress {
+        height: 25px;
+    }
+
+    .add-cover-image{
+        height: 204px;
+    }
+
+    .profile{
+        height: 100px;
+        width: 100px;
+    }
+    .btn-1{
+        width: 170%;
+    }
+  }
+
+
+

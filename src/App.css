@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "Poppins-Black";
+  src: local("Poppins-Black") url("./Assets/Fonts/Poppins-BlackItalic.ttf")
+    format(truetype);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #f15c45;
+  --secondary-color: #ffa495;
+  --dark-color: #323546;
+  --light-color: #ffffff;
+  --light-grey-color: #acacac;
+  --font-weight-normal: 700;
+  --font-weight-small: 500;
+  --black: #17171a;
+  --white: #f8f8f8;
+}
+
+.lightTheme {
+  --background: #ffffff;
+  --textColor: #323546;
+  --mainbg: linear-gradient(to left, #ffffff, #ffffff, #f6988a);
+  --contentColor: #f3f3f3;
+}
+
+.darkTheme {
+  --background: #323546;
+  --textColor: #ffffff;
+  --mainbg: linear-gradient(to left, #17171a, #000000, #656565);
+  --contentColor: #17171a;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.background {
+  background: var(--mainbg);
+}
+
+.line {
+  border-left: 3.5px solid var(--primary-color);
+}
+
+.small-text {
+  color: var(--textColor);
+  font-weight: var(--font-weight-small);
+  font-size: 16px;
+}
+
+.small-text-2 {
+  color: var(--textColor);
+  font-weight: var(--font-weight-normal);
+  font-size: 16px;
+}
+
+.btn:focus,
+.btn:active,
+.form-control:focus,
+.form-control:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-control:active,
+.form-control:focus {
+  border: 1px solid var(--primary-color) !important;
+}
+
+.primary-button {
+  color: var(--light-color) !important;
+  background-color: var(--primary-color) !important;
+  font-weight: var(--font-weight-normal) !important;
+}
+
+.primary-button:hover {
+  background: #e74830 !important;
+}
+
+.secondary-button {
+  background-color: var(--background) !important;
+  border: 2px solid var(--primary-color) !important;
+  color: #323546 !important;
+  font-weight: var(--font-weight-small) !important;
+}
+
+input[type="text"] {
+  color: var(--textColor) !important;
+}
+
+.primary-input-field {
+  line-height: 2 !important;
+  background-color: var(--background) !important;
+}
+
+.primary-input-field::placeholder,
+.secondary-input-field::placeholder,
+.login-input-field::placeholder,
+.registration-field::placeholder {
+  color: #c7c7c7 !important;
+}
+
+.secondary-input-field {
+  line-height: 1.5 !important;
+  background-color: var(--background) !important;
+}
+
+.board {
+  margin: 0px 48px !important;
+}
+
+.login-input-field {
+  line-height: 2.5 !important;
+  background-color: var(--background) !important;
+  color: var(--textColor) !important;
+}
+
+.btn-social {
+  border: 1px solid #c7c7c7 !important;
+  border-radius: 10px !important;
+  width: 100%;
+}
+
+#btn-social {
+  background: #ffffff;
+}
+
+.sidebar-links {
+  cursor: pointer;
+}
+
+.small-heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: #323546;
+}
+
+.borders {
+  border-left: 3px solid #f15c45;
+}
+
+/* main-container */
+.page-wrapper {
+  background-color: #f3f3f3;
+  min-height: 100vh;
+  padding-left: 60px;
+  padding-right: 40px;
+}
+
+.sideClose {
+  margin-left: 80px;
+}
+
+.sideOpen {
+  margin-left: 250px;
+}
+
+@media (max-width: 768px) {
+  .page-wrapper {
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .sideOpen{
+     margin-left: 0;
+  }
+}

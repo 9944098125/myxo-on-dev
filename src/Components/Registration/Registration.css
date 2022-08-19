@@ -1,0 +1,176 @@
+.background-image{
+    background: linear-gradient(to right, rgba(196, 196, 196, 0.3), rgba(0, 0, 0, 0.3),rgba(255,255,255,0.5)), url("../../Assets/Images/loginImage.png") no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    overflow: auto;
+}
+
+.box1 {
+    margin-top: 100px;
+    width: 450px;
+}
+
+.link, .link:hover{
+    font-weight: var(--font-weight-normal);
+    color: var(--primary-color);
+}
+
+.text-3{
+    font-weight: var(--font-weight-normal);
+    color: var(--light-color);
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.glass-effect{
+    min-height: 20rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); 
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+
+.label-field{
+    color: var(--light-color);
+    font-size: 16px;
+}
+
+.btn5{
+    margin-top: 20px;
+    width: 50%;
+    line-height: 2rem !important;
+}
+
+#show{
+    display: none;
+}
+
+.input-group{
+    border-radius: 0.25rem !important;
+}
+
+
+.iconColor{
+    color: var(--textColor);
+}
+
+.pass{
+    border-right: 0 !important;
+}
+
+.theme-icon1{
+    margin-top: 200px;
+}
+
+.theme{
+    background: var(--dark-color);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.select-section{
+    background: var(--background);
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.selection{
+    margin:0 100px 0 100px;
+}
+
+.PhoneInputInput{
+    border: none !important;
+    line-height: 2 !important;
+    color: var(--textColor) !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.PhoneInputInput::placeholder{
+    color: #c7c7c7 !important;
+}
+
+.PhoneInputInput:focus, .PhoneInputInput:active{
+    border: none !important;
+    outline: none !important;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7{
+    background-color: var(--background) !important;
+}
+
+.ReactFlagsSelect-module_selectValue__152eS{
+    color: var(--textColor) !important;
+}
+
+.PhoneInput{
+    color: var(--textColor) !important;
+}
+
+.pass{
+    border-right: 0 !important;
+}
+
+.react-tel-input .form-control{
+    width: 100% !important;
+    line-height: 2 !important;
+    height: 46px !important;
+    font-size: 1rem !important;
+    font-family: 'Poppins', sans-serif !important;
+    color: var(--textColor) !important;
+}
+
+.react-tel-input .form-control::placeholder{
+    color: #c7c7c7 !important;
+}
+
+.react-tel-input .flag-dropdown{
+    background-color: #FFF !important;
+    border-right: 0 !important;
+}
+
+.react-tel-input .flag-dropdown .open:focus .react-tel-input .flag-dropdown .open:active{
+    border: 1px solid var(--primary-color)!important
+}
+
+.react-tel-input .invalid-number-message {
+    position: absolute !important;
+    z-index: 1 !important;
+    font-size: 14px !important;
+    left: 0 !important;
+    top: 51px !important;
+    background: none !important;
+    padding: 0 2px !important;
+    color: #de0000 ;
+}
+
+.react-tel-input .form-control.invalid-number{
+    background-color: #FFF !important;
+}
+
+.invalid-feedback1{
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+  
+
+@media (max-width: 768px) {
+    .bg2{
+        display: none;
+    }
+
+    #show{
+        display: block;
+    }
+
+    .selection{
+        margin: 0;
+    }
+}
+
+.invalid-country{
+    color: #dc3545;
+    font-size: 15px;
+}

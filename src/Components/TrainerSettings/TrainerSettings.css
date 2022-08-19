@@ -1,0 +1,42 @@
+.social {
+  border-left-color: #ffffff;
+}
+
+.headings-1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.social:active,
+.social:focus {
+  border-left-color: #ffffff;
+}
+
+.sm-heading {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sm-heading-1 {
+  font-style: italic;
+  color: #c7c7c7;
+}
+
+.main-hd{
+    border-left: 2px solid #F15C45;
+    padding-left: 15px;
+    color: #323546;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.drp {
+  width: 100%;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .sideOpen {
+    margin-left: 0;
+  }
+}

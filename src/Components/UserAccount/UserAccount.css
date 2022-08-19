@@ -1,0 +1,20 @@
+
+  .ta-inputs{
+    background-color: #ffffff !important;
+  }
+
+.invalid-phone{
+  color: #dc3545;
+  font-size: 15px;
+}
+
+.invalid-country{
+  color: #dc3545;
+  font-size: 15px;
+}
+
+.form-label{
+  font-size: 16px;
+  font-weight: 500;
+  color: #323546;
+}
